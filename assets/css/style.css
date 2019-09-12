@@ -1,0 +1,58 @@
+body{
+    font-family: "Ubuntu",Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+.contain {
+    padding: 0px 100px;
+}
+nav span:hover{
+    color: #ffbd39;
+    border-bottom: 3px solid #ffbd39;
+    padding-bottom: 8px;
+}
+.span{
+    color: #ffbd39;
+}
+#hero-text{
+    padding: 80px;
+}
+header{
+    height: 100vh;
+}
+.hero-small{
+    padding: 30px;
+}
+.bold{
+    font-weight: bolder;
+}
+.justify{
+    text-align: justify;
+}
+.icon{
+    font-size: 80px !important;
+    padding: 30px 80px;
+    color: #ffbd39;
+}
+.progress .determinate{
+    background-color: #ffbd39 !important;
+    
+}
+.collection .collection-item{
+    background-color: #212121 !important;
+}
+h4{
+    padding-bottom: 30px;
+}
+.form{
+    padding-top: 70px;
+}
+
+#white {
+    background-color: white;
+    padding: 50px 30px;
+}
+footer>li>a {
+    padding-bottom: 10px !important;
+}

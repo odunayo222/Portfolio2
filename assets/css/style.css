@@ -1,22 +1,32 @@
 body{
     font-family: "Ubuntu",Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.993);
     color: white;
     overflow-x: hidden;
 }
 .contain {
     padding: 0px 100px;
 }
+.active{
+    color: #ffbd39;
+    padding: 0px;
+    border-bottom: 3px solid #ffbd39;
+    height: 51px;
+}
 nav span:hover{
     color: #ffbd39;
-    border-bottom: 3px solid #ffbd39;
-    padding-bottom: 8px;
+    height: 51px;
 }
-.span{
-    color: #ffbd39;
+nav a>span:visited{
+    color: #ffbd39 !important;
+    border-bottom: 3px solid #ffbd39 !important;
+    padding-bottom: 8px !important;
 }
 #hero-text{
     padding: 80px;
+}
+.span{
+    color:#ffbd39;
 }
 header{
     height: 100vh;
@@ -55,4 +65,23 @@ h4{
 }
 footer>li>a {
     padding-bottom: 10px !important;
+}
+form input, textarea{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.card.black{
+    background-color: rgba(0, 0, 0, 0.993) !important;
+}
+#black{
+    background-color: rgba(0, 0, 0, 0.993);
+}
+
+@media screen and (max-width: 900px) {
+    .active{
+        color: unset;
+        border-bottom: unset;
+        height: unset;
+    }
 }

@@ -84,7 +84,7 @@
                         <div class="col l5 about push-l1 offset-l1">
                                 <h4 class="center-align"> ABOUT ME</h4>
                             <h6 class="bold"><b>I'm Odunayo Ajayi and <span class="yellow-text text-darken-3">A Software Developer</span></b></h6>
-                            <p class="justify">Hi! My name is Odunayo Ajayi. I am a Software Developer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                            <p class="justify">Hi! My name is Odunayo Ajayi. I am a Software Developer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make projects a success. I enjoy seeing the finished product do everything for you that it was created to do, but I find the most satisfaction in solving problems with the use of technology.</p>
         
                         </div>
                         <div class="col l3 push-l2">
@@ -230,63 +230,60 @@
             <section id="contact" class="scrollspy" style="padding-top: 80px; padding-bottom: 50px">
                 <h4 class="center-align">Contact</h4>
                 <div class="container">
-                    <div class="card z-depth-5 hoverable hide-on-med-and-down black" >
-                        <div class="card-content">
-                            <div class="row">
+                            <div class="row hide-on-med-and-down">
                                 <div class="col s12 l5" >
                                     <img src="assets/images/odun.jpg" alt="" class="responsive-img hide-on-med-and-down" >
                                 </div>
-                                <div class="col s12 l6 offset-l1" id="white">
+                                <div class="col s12 l6 offset-l1">
                                     <form action="" class="form">
                                         <div class="input-field">
-                                            <i class="material-icons prefix black-text">account_circle</i>
+                                            <i class="material-icons prefix white-text">account_circle</i>
                                             <input id="fname" type="text" class="validate" required>
                                             <label for="fname">Name</label>
                                         </div>
                                         <div class="input-field">
-                                            <i class="material-icons prefix black-text">email</i>
+                                            <i class="material-icons prefix white-text">email</i>
                                             <input id="femail" type="email" class="validate" required>
                                             <label for="femail">Email</label>
                                         </div>
                                         <div class="input-field">
-                                            <i class="material-icons prefix black-text">subject</i>
+                                            <i class="material-icons prefix white-text">subject</i>
                                             <input id="fsub" type="text" class="validate" required>
                                             <label for="fsub">Subject</label>
                                         </div>
                                         <div class="input-field">
-                                            <i class="material-icons prefix black-text">edit</i>
+                                            <i class="material-icons prefix white-text">edit</i>
                                             <textarea name="message" id="fmsg" cols="30" rows="10" class="materialize-textarea"></textarea>
                                             <label for="fmsg">Message</label>
                                         </div>
                                         <button class="yellow darken-3 btn " type="submit" style="border-radius: 50px;" onclick="requestSent()">Send message</button>
                                     </form>
-                                </div>
-                            </div>
+                            
                         </div>
                         </div>
                         
-                <div class="card z-depth-5 hoverable hide-on-large-only" >
+                <div class="card z-depth-5 hoverable hide-on-large-only" id="black">
                     <div class="card-content">
                         <div class="row">
                             <div class="col s12 l12">
                                 <form action="">
                                     <div class="input-field">
-                                        <i class="material-icons prefix black-text">account_circle</i>
+                                        <i class="material-icons prefix white-text">account_circle</i>
                                         <input id="name" type="text" class="validate" required>
                                         <label for="name">Name</label>
                                     </div>
                                     <div class="input-field">
-                                        <i class="material-icons prefix black-text">email</i>
+                                        <i class="material-icons prefix white-text">email</i>
                                         <input id="email" type="email" class="validate" required>
                                         <label for="email">Email</label>
                                     </div>
                                     <div class="input-field">
-                                        <i class="material-icons prefix black-text">call</i>
+                                        <i class="material-icons prefix white-text">call</i>
                                         <input id="sub" type="text" class="validate" required>
                                         <label for="sub">Subject</label>
                                     </div>
                                     <div class="input-field">
-                                        <i class="material-icons prefix black-text">edit</i>
+                                        <i class="material-icons prefix white-text">edit</i>
                                         <textarea name="message" id="msg" cols="30" rows="10" class="materialize-textarea"></textarea>
                                         <label for="msg">Message</label>
                                     </div>
@@ -330,5 +327,12 @@ function requestSent (){
         alert("Your message has been sent.\n We will get back to you soon");
     }
     }
+    // let menuLg = document.getElementsByClassName('menuLg');
+
+    // for(let i=0; i<menuLg.length; i++){
+    //     menuLg[i].onClick = function(){
+    //         console.log('active')
+    //     }
+    // }
 </script>
 </html>

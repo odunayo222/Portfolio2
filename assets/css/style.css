@@ -7,7 +7,7 @@ body{
 .contain {
     padding: 0px 100px;
 }
-.active{
+nav .active{
     color: #ffbd39;
     padding: 0px;
     border-bottom: 3px solid #ffbd39;

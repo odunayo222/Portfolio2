@@ -1,5 +1,5 @@
 body{
-    font-family: "Ubuntu",Arial, Helvetica, sans-serif;
+    font-family: "Gabriela",Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, 0.993);
     color: white;
     overflow-x: hidden;
@@ -68,8 +68,7 @@ footer>li>a {
 }
 form input, textarea{
     color: white;
-    font-size: 1em;
-    font-weight: bold;
+    font-family: "Gabriela",Arial, Helvetica, sans-serif;
 }
 .card.black{
     background-color: rgba(0, 0, 0, 0.993) !important;
@@ -78,10 +77,3 @@ form input, textarea{
     background-color: rgba(0, 0, 0, 0.993);
 }
 
-@media screen and (max-width: 900px) {
-    .active{
-        color: unset;
-        border-bottom: unset;
-        height: unset;
-    }
-}
